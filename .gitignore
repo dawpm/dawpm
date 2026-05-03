@@ -1,0 +1,9 @@
+# the meta repo (dawpm/dawpm) only tracks the README;
+# core/, cli/, registry/ live in their own repos checked out side-by-side
+core/
+cli/
+registry/
+
+node_modules/
+*.log
+.DS_Store
