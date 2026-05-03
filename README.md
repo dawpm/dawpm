@@ -14,8 +14,8 @@ dawpm install @dsk/overture
 - [`dawpm/core`](https://github.com/dawpm/core): schemas, registry client, installer, DAW adapters
 - [`dawpm/cli`](https://github.com/dawpm/cli): the `dawpm` command-line tool
 - [`dawpm/registry`](https://github.com/dawpm/registry): the Next.js registry frontend
-- [`dawpm/registry-data`](https://github.com/dawpm/registry-data): the source-of-truth plugin data
+- [`yanncotineau/dawpm-registry`](https://github.com/yanncotineau/dawpm-registry): the source-of-truth plugin data
 
 ## Adding a plugin
 
-Open a PR on the registry data repo with a `src/plugins/<ns>/<name>/index.yaml` file. The registry rebuilds and redeploys automatically on merge.
+Open a PR on the data repo with a `src/plugins/<ns>/<name>/index.yaml` file. The registry rebuilds and redeploys automatically on merge.
